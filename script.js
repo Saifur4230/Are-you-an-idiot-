@@ -17,3 +17,7 @@ noBtn.addEventListener('mouseover', () => {
     noBtn.style.left = i + 'px';
     noBtn.style.top = j + 'px';
 });
+
+noBtn.addEventListener('click', () => {
+    question.innerHTML = 'তুমি আসলেই বলদ, তা না হলে এতো কষ্ট করে "NO" তে ক্লিক করতে |';
+});
